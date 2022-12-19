@@ -143,10 +143,9 @@ $content .= '</div>';
 
 ?>
 
+<?php require_once 'head.php'; ?>
 
-<?php require_once('index.php') ?>
-
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="panier.css">
 
 <h1 class="text-center">Panier</h1>
 <?= $content ?>
